@@ -1,0 +1,129 @@
+html, body{
+    height: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+/* ----------------------------------------------------------------------- */
+.bloco1{
+    margin-left: 10%;
+}
+
+.bloco2{
+
+}
+/* ----------------------------------------------------------------------- */
+.nome{
+    position: absolute;
+}
+
+#nome, #sobrenome{
+    color: black;
+    font-family: 'Baloo 2', cursive;
+    font-size: 100px;    
+}
+#sobrenome{
+    margin-top: -50px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.fullstack{
+    margin-top: 175px;
+    position: absolute;
+    padding-top: 5px;
+    padding-right: 30px;
+    margin-left: 6px;
+    width: 765px;
+    height: 60px;
+    font-family: 'Secular One', sans-serif;
+    background-color: #5000ca;
+}
+
+#fullstack{
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.one, .two, .three, .four{
+    margin-top: -200px;
+    margin-left: 30px;
+    display: inline-block;
+    height: 100px;
+    width: 20px;
+    transform: rotate(32deg);
+    background-color: white;
+}
+
+/* ----------------------------------------------------------------------- */
+.circulo{
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background-color: #5000ca;
+}
+
+#picture{
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.bloco3{
+    margin-top: -70px;
+}
+/* ----------------------------------------------------------------------- */
+
+#git, #curriculo, #linkedin{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.icons{
+    position: relative;
+    margin-left: 520px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.nav{
+    position: absolute;
+    margin-left: 600px;
+    display:inline;
+    font-family: 'Baloo 2', cursive;
+}
+
+li{
+    color: white;
+    margin-top: -380px;
+    margin-left: 50px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.seemore{
+    padding-top: 5px;
+    padding-left: 7px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 290px;
+    background-color: #5000ca;
+
+    animation: seemore 2s ease infinite;
+}
+
+@keyframes seemore {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
+
+#arrow{
+    width: 20px;
+    height: 20px;
+}
